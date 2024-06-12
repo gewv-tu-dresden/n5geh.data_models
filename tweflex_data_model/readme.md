@@ -7,7 +7,7 @@
 
 - Overview of the data points in the following table, the entity ID is created from the entity type and an ID, such as `entity-type:ID`
 
-| Entity-Type             | Example Entity ID               | Description                     | `Attribute ID`                 | Attribute Type | Data Type | Unit          | Description                                    |
+| Entity-Type             | Example Entity ID               | Description                     | Attribute ID                | Attribute Type | Data Type | Unit          | Description                                    |
 |----------------------|--------------------------------|----------------------------------|--------------------------------|------------------|-------------|-----------------|---------------------------------------------------|
 | `thermal_storage`    | `thermal_storage:001`          | Thermal Storage                  | `hw__temperature__in`          | attribute        | Number      | °C              | Inlet temperature                                 |
 |                      |                                |                                  | `hw__temperature__out`         | attribute        | Number      | °C              | Outlet temperature                                |
