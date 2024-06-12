@@ -13,13 +13,13 @@
 |                      |                                |                                  | `hw__temperature__out`         | attribute        | Number      | °C              | Outlet temperature                                |
 |                      |                                |                                  | `hw__temperature__x`           | attribute        | Number      | °C              | Temperature at point x (numbering/height in %)   |
 |                      |                                |                                  | `hw__volume`                   | static_attribute | Number      | m³              | Volume of heating water in storage      
-|
+|                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in`         | attribute        | Number      | °C              | Inlet temperature                                 |
 |                      |                                |                                  | `heat__temperature__out`        | attribute        | Number      | °C              | Outlet temperature                                |
 |                      |                                |                                  | `heat__volumeflow`              | attribute        | Number      | m³/h or l/min     | Volume flow                                       |
 |                      |                                |                                  | `heat__power`                   | attribute        | Number      | W or kW          | Heat power                                        |
 |                      |                                |                                  | `heat__energy`                  | attribute        | Number      | kWh | MWh        | Heat energy / thermal energy                      |
-|
+|                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `heat_transfer_station` | `heat_transfer_station:001`  | Heat Transfer Station          | `primary__temperatur__in`    | attribute      | Number    | °C      | Primary side delivery temperature               |
 |                         |                               |                                 | `primary__temperatur__out`   | attribute      | Number    | °C      | Primary side return temperature                 |
 |                         |                               |                                 | `primary__pressure__in`      | attribute      | Number    | Pa or bar | Pressure in primary side flow                    |
@@ -34,12 +34,12 @@
 |                         |                               |                                 | `heat__temperature__setpoint`| command        | Number / StructuredValue | °C | Setpoint temperature in the reference case      |
 |                         |                               |                                 | `heat__meter__in`            | Relationship  | heat_meter | -  | Heat meter for the reference case (Consumer)    |
 |                         |                               |                                 | `heat__meter__out`           | Relationship  | heat_meter | -  | Heat meter for the reference case (Prosumer)    |
-|
+|                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `heating_circuit`       | `heating_circuit:001`         | Heating Circuit                | `heat__temperature__in`      | attribute      | Number    | °C      | Inlet temperature to heating circuit            |
 |                         |                               |                                 | `heat__temperature__out`     | attribute      | Number    | °C      | Outlet temperature from heating circuit         |
 |                         |                               |                                 | `heat__volumeflow`           | attribute      | Number    | m³/h or l/min | Volumetric flow rate through heating circuit    |
 |                         |                               |                                 | `outdoor__temperature`       | attribute      | Number    | °C      | Outdoor temperature                              |
-|
+|                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `dhw_station`           | `dhw_station:001`             | DHW Station                    | `heat__temperature__in`      | attribute      | Number    | °C      | Inlet temperature of heating water to DHW station|
 |                         |                               |                                 | `heat__temperature__out`     | attribute      | Number    | °C      | Outlet temperature of heating water from DHW station |
 |                         |                               |                                 | `heat__volumeflow`           | attribute      | Number    | m³/h or l/min | Volumetric flow rate of heating water through DHW station |
