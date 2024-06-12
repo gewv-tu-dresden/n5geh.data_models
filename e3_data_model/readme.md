@@ -1,5 +1,7 @@
 # Data Modells for the Project E³
 
+Comments with ?? (for search)
+
 - Creation of the data models in the Jupyter Notebook [e3_data_modell.ipynb](./e3_data_modell.ipynb)
 - JSON schema files [schemes](./schemes/) for the relevant entities
 
@@ -9,12 +11,12 @@
 
 | Entity-Type             | Example Entity ID               | Description                     | Attribute ID                 | Attribute Type | Data Type | Unit          | Description                                    |
 |----------------------|--------------------------------|----------------------------------|--------------------------------|------------------|-------------|-----------------|---------------------------------------------------|
-| `thermal_storage`    | `thermal_storage:001`          | Thermal Storage                  | `hw__temperature__in`          | attribute        | Number      | °C              | Inlet temperature                                 |
+| `thermal_storage`    | `thermal_storage:001`          | Thermal Storage                  | `hw__temperature__in`  (?was ist mit mehereren WEZ, Dopplung bei Entity, ggf. bei description hinzufügen)        | attribute        | Number      | °C              | Inlet temperature                                 |
 |                      |                                |                                  | `hw__temperature__out`         | attribute        | Number      | °C              | Outlet temperature                                |
 |                      |                                |                                  | `hw__temperature__x`           | attribute        | Number      | °C              | Temperature at point x (numbering/height in %)   |
 |                      |                                |                                  | `hw__volume`                   | static_attribute | Number      | m³              | Volume of heating water in storage      
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
-| `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in`         | attribute        | Number      | °C              | Inlet temperature                                 |
+| `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in` (heat notwendig??)        | attribute        | Number      | °C              | Inlet temperature                                 |
 |                      |                                |                                  | `heat__temperature__out`        | attribute        | Number      | °C              | Outlet temperature                                |
 |                      |                                |                                  | `heat__volumeflow`              | attribute        | Number      | m³/h or l/min     | Volume flow                                       |
 |                      |                                |                                  | `heat__power`                   | attribute        | Number      | W or kW          | Heat power                                        |
@@ -22,7 +24,7 @@
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `heat_transfer_station` | `heat_transfer_station:001`  | Heat Transfer Station          | `primary__temperatur__in`    | attribute      | Number    | °C      | Primary side delivery temperature               |
 |                         |                               |                                 | `primary__temperatur__out`   | attribute      | Number    | °C      | Primary side return temperature                 |
-|                         |                               |                                 | `primary__pressure__in`      | attribute      | Number    | Pa or bar | Pressure in primary side flow                    |
+|                         |                               |                                 | `primary__pressure__in`      | attribute      | Number    | Pa or bar (abs or ü)? | Pressure in primary side flow                    |
 |                         |                               |                                 | `primary__pressure__out`     | attribute      | Number    | Pa or bar | Pressure in primary side return                  |
 |                         |                               |                                 | `secondary__temperatur__in`  | attribute      | Number    | °C      | Secondary side delivery temperature             |
 |                         |                               |                                 | `secondary__temperatur__out` | attribute      | Number    | °C      | Secondary side return temperature               |
