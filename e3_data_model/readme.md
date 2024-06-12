@@ -5,7 +5,7 @@
 
 - The data model is based on NGSI-v2 and the VDI 3814 - 4.1
 
-- Overview of the data points in the following table, the entity ID is created from the entity type and an ID, such as `entity-type:ID`
+- Overview of the data points in the following table,where the entity ID is created from the entity type and an ID, such as `entity-type:ID`
 
 | Entity-Type             | Example Entity ID               | Description                     | Attribute ID                 | Attribute Type | Data Type | Unit          | Description                                    |
 |----------------------|--------------------------------|----------------------------------|--------------------------------|------------------|-------------|-----------------|---------------------------------------------------|
