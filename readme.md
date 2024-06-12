@@ -9,4 +9,5 @@
     ```
 
 ## Contents
-- [Data Model TWE-Flex](./tweflex_data_model)
+- [Data Model TWE-Flex](./tweflex_data_model/)
+- [Data Model E³](./e3_data_model/)
