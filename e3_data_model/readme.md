@@ -6,14 +6,22 @@ Comments with ?? (for search)
 - JSON schema files [schemes](./schemes/) for the relevant entities
 
 - The data model is based on NGSI-v2 and the VDI 3814 - 4.1
+    - The ID of Entities is generated from the entity type and an ID, such as `entity-type:ID`
+    - The ID of the attribute is given by a combination of 
+        - the following parts:
+            - Subcomponent (Part of the entity)
+            - Type of data point
+            - Position of the data point
+        - with the following strucur: `subcomponent__data-point-type__data-point-position`
 
-- Overview of the data points in the following table,where the entity ID is created from the entity type and an ID, such as `entity-type:ID`
+- An overview of the data points is provided in the following table
 
 | Entity-Type             | Example Entity ID               | Description                     | Attribute ID                 | Attribute Type | Data Type | Unit          | Description                                    |
 |----------------------|--------------------------------|----------------------------------|--------------------------------|------------------|-------------|-----------------|---------------------------------------------------|
-| `thermal_storage`    | `thermal_storage:001`          | Thermal Storage                  | `hw__temperature__in`  (?was ist mit mehereren WEZ, Dopplung bei Entity, ggf. bei description hinzufügen)        | attribute        | Number      | °C              | Inlet temperature                                 |
-|                      |                                |                                  | `hw__temperature__out`         | attribute        | Number      | °C              | Outlet temperature                                |
-|                      |                                |                                  | `hw__temperature__x`           | attribute        | Number      | °C              | Temperature at point x (numbering/height in %)   |
+| `thermal_storage`    | `thermal_storage:001`          | Thermal Storage                  | `hw__temperature__20`           | attribute        | Number      | °C              | Temperature of the heating water in position at 20 per cent of the high of the thermal storage tank   |
+|                      |                                |                                  | `hw__temperature__50`           | attribute        | Number      | °C              | Temperature of the heating water in position at 50 per cent of the high of the thermal storage tank   |
+|                      |                                |                                  | `hw__temperature__80`           | attribute        | Number      | °C              | Temperature of the heating water in position at 50 per cent of the high of the thermal storage tank   |
+|                      |                                |                                  | `hw__temperature__x`           | attribute        | Number      | °C              | Temperature at point x (numbering/height in %) (if more points are needed)   |
 |                      |                                |                                  | `hw__volume`                   | static_attribute | Number      | m³              | Volume of heating water in storage      
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in` (heat notwendig??)        | attribute        | Number      | °C              | Inlet temperature                                 |
