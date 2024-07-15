@@ -1,7 +1,6 @@
 # Data Modells for the Project E³
 
-Comments with ?? (for search)
-
+## Information on the data model
 - Creation of the data models in the Jupyter Notebook [e3_data_modell.ipynb](./e3_data_modell.ipynb)
 - JSON schema files [schemes](./schemes/) for the relevant entities
 
@@ -24,7 +23,7 @@ Comments with ?? (for search)
 |                      |                                |                                  | `hw__temperature__x`           | attribute        | Number      | °C              | Temperature at point x (numbering/height in %) (if more points are needed)   |
 |                      |                                |                                  | `hw__volume`                   | static_attribute | Number      | m³              | Volume of heating water in storage      
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
-| `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in` (heat notwendig??)        | attribute        | Number      | °C              | Inlet temperature                                 |
+| `heat_meter`         | `heat_meter:001`               | Heat Meter                       | `heat__temperature__in`      | attribute        | Number      | °C              | Inlet temperature                                 |
 |                      |                                |                                  | `heat__temperature__out`        | attribute        | Number      | °C              | Outlet temperature                                |
 |                      |                                |                                  | `heat__volumeflow`              | attribute        | Number      | m³/h or l/min     | Volume flow                                       |
 |                      |                                |                                  | `heat__power`                   | attribute        | Number      | W or kW          | Heat power                                        |
@@ -55,3 +54,20 @@ Comments with ?? (for search)
 |                         |                               |                                 | `heat__volumeflow`           | attribute      | Number    | m³/h or l/min | Volumetric flow rate of heating water through DHW station |
 |                         |                               |                                 | `dhw__temperature__in`       | attribute      | Number    | °C      | Inlet temperature of TWW to DHW station         |
 |                         |                               |                                 | `dhw__temperature__out`      | attribute      | Number    | °C      | Outlet temperature of TWW from DHW
+
+## Related projects
+
+- EnOB: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
+<a href="https://n5geh.de/e3/"> Project Website </a>
+
+- EnOB: N5GEH-Serv - National 5G Energy Hub <br>
+<a href="https://n5geh.de/"> <img alt="National 5G Energy Hub" 
+src="https://avatars.githubusercontent.com/u/43948851?s=200&v=4" height="150"></a>
+
+## Acknowledgments
+
+We gratefully acknowledge the financial support of the Federal Ministry <br> 
+for Economic Affairs and Climate Action (BMWK), promotional reference 03EN3058-C.
+
+<a href="https://www.bmwi.de/Navigation/EN/Home/home.html"> <img alt="BMWK" 
+src="https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/bmwi_logo_en.png" height="100"> </a>

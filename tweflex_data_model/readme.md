@@ -1,5 +1,6 @@
 # Data Modells for the Project TWE-Flex
 
+## Information on the data model
 - Creation of the data models in the Jupyter Notebook [twe_flex_data_modell.ipynb](./twe_flex_data_modell.ipynb)
 - JSON schema files [schemes](./schemes/) for the relevant entities
 
@@ -66,3 +67,19 @@
 |                      |                                |                                  | `heat__power`                   | attribute        | Number      | W or kW          | Heat power                                        |
 |                      |                                |                                  | `heat__energy`                  | attribute        | Number      | kWh | MWh        | Heat energy / thermal energy                      |
 
+## Related projects
+
+- EnOB: TWE-Flex - Optimisation and flexibilisation of domestic hot water heating systems <br>
+<a href="https://n5geh.de/twe-flex/"> Project Website </a>
+
+- EnOB: N5GEH-Serv - National 5G Energy Hub <br>
+<a href="https://n5geh.de/"> <img alt="National 5G Energy Hub" 
+src="https://avatars.githubusercontent.com/u/43948851?s=200&v=4" height="150"></a>
+
+## Acknowledgments
+
+We gratefully acknowledge the financial support of the Federal Ministry <br> 
+for Economic Affairs and Climate Action (BMWK), promotional reference 03EN1056A-B.
+
+<a href="https://www.bmwi.de/Navigation/EN/Home/home.html"> <img alt="BMWK" 
+src="https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/bmwi_logo_en.png" height="100"> </a>
