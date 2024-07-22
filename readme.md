@@ -11,7 +11,7 @@
 ## Contents
 - [Data Model TWE-Flex](./tweflex_data_model/)
 - [Data Model E³](./e3_data_model/)
-- [Data Model Digihast](./digihast_data_model/)
+- [Data Model DIGiHAST](./digihast_data_model/)
 
 
 ## License
@@ -33,7 +33,8 @@ This project is licensed under the BSD-3-Clause license - see the [LICENSE](LICE
 <a href="https://n5geh.de/e3/"> Project Website </a>
 
 - EnOB: DIGiHAST - Digitalisation of heat transfer in house stations and network nodes <br>
-<a href="https://n5geh.de/digihast/"> Project Website </a>
+<a href="https://n5geh.de/digihast/"> <img alt="National 5G Energy Hub" 
+src="https://cloudstore.zih.tu-dresden.de/index.php/s/ZZiFLQC6bisxqds/preview" height="150"> </a>
 
 - EnOB: N5GEH-Serv - National 5G Energy Hub <br>
 <a href="https://n5geh.de/"> <img alt="National 5G Energy Hub" 

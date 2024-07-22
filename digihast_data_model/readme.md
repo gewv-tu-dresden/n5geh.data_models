@@ -38,7 +38,8 @@
 ## Related projects
 
 - EnOB: Digitization of heat transfer in house stations and network nodes <br>
-<a href="https://n5geh.de/digihast/"> Project Website </a>
+<a href="https://n5geh.de/digihast/"> <img alt="National 5G Energy Hub" 
+src="https://cloudstore.zih.tu-dresden.de/index.php/s/ZZiFLQC6bisxqds/preview" height="150"> </a>
 
 - EnOB: N5GEH-Serv - National 5G Energy Hub <br>
 <a href="https://n5geh.de/"> <img alt="National 5G Energy Hub" 
