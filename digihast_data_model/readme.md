@@ -30,13 +30,10 @@
 |                      |                                |                       | `rttemp_tcr`        | static_attribute       | Number      | °C              | Technical connection regulations for return temperature    |
 |                      |                                |                       | `design_flow`             | static_attribute        | Number      | m³/h            | Design flow of the substation    |
 |                      |                                |                       | `connected_load`            | static_attribute        | Number      | kW              | Connected Load of the substation      |
-|                      |                                |                       | `address`           | static_attribute        | String      | m³              | Volume of the substation primary side   |
+|                      |                                |                       | `address`           | static_attribute        | PostalAddress      |               | Address of the substation   |
+|                      |                                |                       | `location`           | static_attribute        | Location      |               | Location (GPS coordinates) of the substation   |
 |                      |                                |                                  |                                 |                  |              |                |  
-| `iKNOTEN`              | `iKNOTEN:1`         |  DH Node    | `location`                         | static_attribute       | String      | °C              | Location of the Node in the DH-Network   |
-|                      |                                |                       | `rttemp_tcr`        | static_attribute       | Number      | °C              | Technical connection regulations for return temperature    |
-|                      |                                |                       | `design_flow`             | static_attribute        | Number      | m³/h            | Design flow of the substation    |
-|                      |                                |                       | `connected_load`            | static_attribute        | Number      | kW              | Connected Load of the substation      |
-|                      |                                |                       | `address`           | static_attribute        | Number      | m³              | Volume of the substation primary side   |
+| `iKNOTEN`              | `iKNOTEN:1`         |  DH Node    | `location`                         | static_attribute       | Location      |               | Location (GPS coordinates) of the Node   |
 
 ## Related projects
 
