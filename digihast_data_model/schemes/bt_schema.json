@@ -1,0 +1,24 @@
+{
+    "title": "BT",
+    "description": "Model for a temperature sensor",
+    "type": "object",
+    "properties": {
+        "temperature": {
+            "title": "Temperature",
+            "description": "measure temperature in degree Celsius",
+            "type": "number"
+        },
+        "ref_entity": {
+            "title": "Ref Entity",
+            "description": "Reference to the entity"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    }
+}

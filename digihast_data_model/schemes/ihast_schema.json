@@ -1,0 +1,118 @@
+{
+    "title": "iHAST",
+    "description": "Model for a substation",
+    "type": "object",
+    "properties": {
+        "address": {
+            "$ref": "#/definitions/PostalAddress"
+        },
+        "location": {
+            "$ref": "#/definitions/Location"
+        },
+        "subnet": {
+            "title": "Subnet",
+            "description": "subnet ",
+            "type": "string"
+        },
+        "connectedLoad": {
+            "title": "Connectedload",
+            "description": "Connected load of a substation",
+            "type": "number"
+        },
+        "design_flow": {
+            "title": "Design Flow",
+            "description": "Design flow of a substation",
+            "type": "number"
+        },
+        "fwtemp_tcr": {
+            "title": "Fwtemp Tcr",
+            "description": "Technical connection regulations for supply temperature",
+            "type": "number"
+        },
+        "rttemp_tcr": {
+            "title": "Rttemp Tcr",
+            "description": "Technical connection regulations for return temperature",
+            "type": "number"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    },
+    "definitions": {
+        "PostalAddress": {
+            "title": "PostalAddress",
+            "description": "Model for address (maybe adapt to https://schema.org/PostalAddress)",
+            "type": "object",
+            "properties": {
+                "streetName": {
+                    "title": "Streetname",
+                    "description": "Street name",
+                    "type": "string"
+                },
+                "streetNumber": {
+                    "title": "Streetnumber",
+                    "description": "Street number",
+                    "type": "string"
+                },
+                "city": {
+                    "title": "City",
+                    "description": "City",
+                    "type": "string"
+                },
+                "postalCode": {
+                    "title": "Postalcode",
+                    "description": "Postal code",
+                    "type": "integer"
+                },
+                "model_config": {
+                    "title": "Model Config",
+                    "default": {
+                        "populate_by_name": true,
+                        "coerce_numbers_to_str": true
+                    },
+                    "type": "object"
+                }
+            },
+            "required": [
+                "streetName",
+                "streetNumber",
+                "city",
+                "postalCode"
+            ]
+        },
+        "Location": {
+            "title": "Location",
+            "description": "Model for location",
+            "type": "object",
+            "properties": {
+                "latitude": {
+                    "title": "Latitude",
+                    "description": "Latitude",
+                    "type": "number"
+                },
+                "longitude": {
+                    "title": "Longitude",
+                    "description": "Longitude",
+                    "type": "number"
+                },
+                "model_config": {
+                    "title": "Model Config",
+                    "default": {
+                        "populate_by_name": true,
+                        "coerce_numbers_to_str": true
+                    },
+                    "type": "object"
+                }
+            },
+            "required": [
+                "latitude",
+                "longitude"
+            ]
+        }
+    }
+}

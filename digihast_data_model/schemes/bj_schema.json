@@ -1,0 +1,49 @@
+{
+    "title": "BJ",
+    "description": "Model for a heat meter",
+    "type": "object",
+    "properties": {
+        "fwtemp": {
+            "title": "Fwtemp",
+            "description": "dh supply temperature in degree Celsius",
+            "type": "number"
+        },
+        "rttemp": {
+            "title": "Rttemp",
+            "description": "dh return temperature in degree Celsius",
+            "type": "number"
+        },
+        "flow": {
+            "title": "Flow",
+            "description": "dh flow in kubikmeter per hour",
+            "type": "number"
+        },
+        "power": {
+            "title": "Power",
+            "description": "dh power in kilowatt",
+            "type": "number"
+        },
+        "volume": {
+            "title": "Volume",
+            "description": "dh volume in kubikmeter",
+            "type": "number"
+        },
+        "energy": {
+            "title": "Energy",
+            "description": "dh energy in kilowatthour",
+            "type": "number"
+        },
+        "ref_entity": {
+            "title": "Ref Entity",
+            "description": "Reference to the entity"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    }
+}

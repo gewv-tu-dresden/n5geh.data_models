@@ -1,0 +1,54 @@
+{
+    "title": "iKNOTEN",
+    "description": "Model for a substation",
+    "type": "object",
+    "properties": {
+        "location": {
+            "$ref": "#/definitions/Location"
+        },
+        "subnet": {
+            "title": "Subnet",
+            "description": "subnet ",
+            "type": "string"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    },
+    "definitions": {
+        "Location": {
+            "title": "Location",
+            "description": "Model for location",
+            "type": "object",
+            "properties": {
+                "latitude": {
+                    "title": "Latitude",
+                    "description": "Latitude",
+                    "type": "number"
+                },
+                "longitude": {
+                    "title": "Longitude",
+                    "description": "Longitude",
+                    "type": "number"
+                },
+                "model_config": {
+                    "title": "Model Config",
+                    "default": {
+                        "populate_by_name": true,
+                        "coerce_numbers_to_str": true
+                    },
+                    "type": "object"
+                }
+            },
+            "required": [
+                "latitude",
+                "longitude"
+            ]
+        }
+    }
+}

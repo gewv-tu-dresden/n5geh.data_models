@@ -1,0 +1,24 @@
+{
+    "title": "BF",
+    "description": "Model for a flow sensor",
+    "type": "object",
+    "properties": {
+        "flow": {
+            "title": "Flow",
+            "description": "measure flow in kubikmeter per hour",
+            "type": "number"
+        },
+        "ref_entity": {
+            "title": "Ref Entity",
+            "description": "Reference to the entity"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    }
+}

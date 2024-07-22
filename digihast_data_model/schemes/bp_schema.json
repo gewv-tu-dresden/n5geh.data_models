@@ -1,0 +1,24 @@
+{
+    "title": "BP",
+    "description": "Model for a pressure sensor",
+    "type": "object",
+    "properties": {
+        "pressure": {
+            "title": "Pressure",
+            "description": "measure pressure in bar",
+            "type": "number"
+        },
+        "ref_entity": {
+            "title": "Ref Entity",
+            "description": "Reference to the entity"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    }
+}

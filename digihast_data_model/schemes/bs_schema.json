@@ -1,0 +1,24 @@
+{
+    "title": "BS",
+    "description": "Model for a rotatiol frequency",
+    "type": "object",
+    "properties": {
+        "rotational_frequency": {
+            "title": "Rotational Frequency",
+            "description": "measure rotatiol frequency in rpm",
+            "type": "number"
+        },
+        "ref_entity": {
+            "title": "Ref Entity",
+            "description": "Reference to the entity"
+        },
+        "model_config": {
+            "title": "Model Config",
+            "default": {
+                "populate_by_name": true,
+                "coerce_numbers_to_str": true
+            },
+            "type": "object"
+        }
+    }
+}
