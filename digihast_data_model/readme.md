@@ -11,14 +11,14 @@
 
 | Entity-Type             | Example Entity ID               | Description                     | Attribute ID                | Attribute Type | Data Type | Unit          | Description                                    |
 |----------------------|--------------------------------|----------------------------------|--------------------------------|------------------|-------------|-----------------|---------------------------------------------------|
-| `BJ`                 | `BJ:71799655`         | Heat Meter of DH Substation    | `fwtemp`           | attribute        | Number      | °C              | Supply temperature of the substation primiry side   |
-|                      |                                |                       | `rttemp`           | attribute        | Number      | °C              | Return temperature of the substation primiry side    |
-|                      |                                |                       | `flow`             | attribute        | Number      | m³/h            | Flow of the substation primiry side    |
-|                      |                                |                       | `power`            | attribute        | Number      | kW              | Power of the substation primiry side     |
-|                      |                                |                       | `volume`           | attribute        | Number      | m³              | Volume of the substation primiry side   |
-|                      |                                |                       | `energy`           | attribute        | Number      | kWh             | Energy of the substation primiry side   |
+| `BJ`                 | `BJ:71799655`         | Heat Meter of DH Substation    | `fwtemp`           | attribute        | Number      | °C              | Supply temperature of the substation primary side   |
+|                      |                                |                       | `rttemp`           | attribute        | Number      | °C              | Return temperature of the substation primary side    |
+|                      |                                |                       | `flow`             | attribute        | Number      | m³/h            | Flow of the substation primary side    |
+|                      |                                |                       | `power`            | attribute        | Number      | kW              | Power of the substation primary side     |
+|                      |                                |                       | `volume`           | attribute        | Number      | m³              | Volume of the substation primary side   |
+|                      |                                |                       | `energy`           | attribute        | Number      | kWh             | Energy of the substation primary side   |
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
-| `BT`                 | `BT:001001`                    | temperature sensor    | `temperture`        | attribute        | Number      | °C             | Temperature Sensor                         |
+| `BT`                 | `BT:001001`                    | temperature sensor    | `temperature`        | attribute        | Number      | °C             | Temperature Sensor                         |
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
 | `BP`                 | `BP:002001`                    | pressure sensor       | `pressure`          | attribute        | Number      | bar            | Pressure Sensor               |
 |            |                                |                                 |                                 |                  |              |                |    
@@ -30,15 +30,13 @@
 |                      |                                |                       | `rttemp_tcr`        | static_attribute       | Number      | °C              | Technical connection regulations for return temperature    |
 |                      |                                |                       | `design_flow`             | static_attribute        | Number      | m³/h            | Design flow of the substation    |
 |                      |                                |                       | `connected_load`            | static_attribute        | Number      | kW              | Connected Load of the substation      |
-|                      |                                |                       | `address`           | static_attribute        | String      | m³              | Volume of the substation primiry side   |
+|                      |                                |                       | `address`           | static_attribute        | String      | m³              | Volume of the substation primary side   |
 |                      |                                |                                  |                                 |                  |              |                |  
 | `iKNOTEN`              | `iKNOTEN:1`         |  DH Node    | `location`                         | static_attribute       | String      | °C              | Location of the Node in the DH-Network   |
 |                      |                                |                       | `rttemp_tcr`        | static_attribute       | Number      | °C              | Technical connection regulations for return temperature    |
 |                      |                                |                       | `design_flow`             | static_attribute        | Number      | m³/h            | Design flow of the substation    |
 |                      |                                |                       | `connected_load`            | static_attribute        | Number      | kW              | Connected Load of the substation      |
-|                      |                                |                       | `address`           | static_attribute        | Number      | m³              | Volume of the substation primiry side   |
-|                      |                                |                                  |                                 |                  |              |                |  
-                                                 |
+|                      |                                |                       | `address`           | static_attribute        | Number      | m³              | Volume of the substation primary side   |
 
 ## Related projects
 
