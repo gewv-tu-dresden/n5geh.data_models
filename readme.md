@@ -11,3 +11,37 @@
 ## Contents
 - [Data Model TWE-Flex](./tweflex_data_model/)
 - [Data Model E³](./e3_data_model/)
+- [Data Model Digihast](./digihast_data_model/)
+
+
+## License
+
+This project is licensed under the BSD-3-Clause license - see the [LICENSE](LICENSE) file for details.
+
+## Copyright
+
+<a href="https://tu-dresden.de/ing/maschinenwesen/iet/gewv"> <img alt="EBC" src="https://raw.githubusercontent.com/N5GEH/.github/main/logos/Logo-Banner-TUD-IET-GEWV.jpg" height="100"> </a>
+
+2020-2024, TUD Dresden University of Technology, Chair of Building Energy Systems and Heat Supply
+
+## Related projects
+
+- EnOB: TWE-Flex - Optimisation and flexibilisation of domestic hot water heating systems <br>
+<a href="https://n5geh.de/twe-flex/"> Project Website </a>
+
+- EnOB: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
+<a href="https://n5geh.de/e3/"> Project Website </a>
+
+- EnOB: DIGiHAST - Digitalisation of heat transfer in house stations and network nodes <br>
+<a href="https://n5geh.de/digihast/"> Project Website </a>
+
+- EnOB: N5GEH-Serv - National 5G Energy Hub <br>
+<a href="https://n5geh.de/"> <img alt="National 5G Energy Hub" 
+src="https://avatars.githubusercontent.com/u/43948851?s=200&v=4" height="150"></a>
+
+## Acknowledgments
+
+We gratefully acknowledge the financial support of the Federal Ministry for Economic Affairs and Climate Action (BMWK).
+
+<a href="https://www.bmwi.de/Navigation/EN/Home/home.html"> <img alt="BMWK" 
+src="https://raw.githubusercontent.com/RWTH-EBC/FiLiP/master/docs/logos/bmwi_logo_en.png" height="100"> </a>
