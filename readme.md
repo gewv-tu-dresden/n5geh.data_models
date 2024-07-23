@@ -7,11 +7,12 @@
     ```
     poetry install
     ```
+- A further overview of data models within the N5GEH can be found in the [n5geh.tutorials.data_model](https://github.com/N5GEH/n5geh.tutorials.data_model) repo. The use of JSON schema is also described further there.
 
 ## Contents
-- [Data Model TWE-Flex](./tweflex_data_model/)
-- [Data Model E³](./e3_data_model/)
-- [Data Model DIGiHAST](./digihast_data_model/)
+- [Data Model TWE-Flex](./tweflex_data_model/): Data model of domestic hot water heating with temperature maintenance band and district heating.
+- [Data Model E³](./e3_data_model/): Data model of a heat supply system in a building with district heating connection and other energy sources with a bidirectional energy flow function
+- [Data Model DIGiHAST](./digihast_data_model/): Data model from district heating network perspective of network nodes and digital house substations
 
 
 ## License
@@ -20,7 +21,7 @@ This project is licensed under the BSD-3-Clause license - see the [LICENSE](LICE
 
 ## Copyright
 
-<a href="https://tu-dresden.de/ing/maschinenwesen/iet/gewv"> <img alt="EBC" src="https://raw.githubusercontent.com/N5GEH/.github/main/logos/Logo-Banner-TUD-IET-GEWV.jpg" height="100"> </a>
+<a href="https://tu-dresden.de/ing/maschinenwesen/iet/gewv"> <img alt="EBC" src="https://raw.githubusercontent.com/N5GEH/.github/main/logos/Logo-Banner-TUD-IET-GEWV.jpg" height="75"> </a>
 
 2020-2024, TUD Dresden University of Technology, Chair of Building Energy Systems and Heat Supply
 
