@@ -30,10 +30,10 @@ This project is licensed under the BSD-3-Clause license - see the [LICENSE](LICE
 - EnOB: TWE-Flex - Optimisation and flexibilisation of domestic hot water heating systems <br>
 <a href="https://n5geh.de/twe-flex/"> Project Website </a>
 
-- EnOB: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
+- EnEff: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
 <a href="https://n5geh.de/e3/"> Project Website </a>
 
-- EnOB: DIGiHAST - Digitalisation of heat transfer in house stations and network nodes <br>
+- EnEff: DIGiHAST - Digitalisation of heat transfer in house stations and network nodes <br>
 <a href="https://n5geh.de/digihast/"> <img alt="National 5G Energy Hub" 
 src="https://cloudstore.zih.tu-dresden.de/index.php/s/ZZiFLQC6bisxqds/preview" height="150"> </a>
 

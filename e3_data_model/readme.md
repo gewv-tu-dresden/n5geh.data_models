@@ -57,7 +57,7 @@
 
 ## Related projects
 
-- EnOB: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
+- EnEff: E³ - Low-emission and energy-efficient energy supply in urban areas using the latest intelligent ICT structures <br>
 <a href="https://n5geh.de/e3/"> Project Website </a>
 
 - EnOB: N5GEH-Serv - National 5G Energy Hub <br>
