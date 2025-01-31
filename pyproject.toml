@@ -2,7 +2,12 @@
 name = "n5geh.data_models"
 version = "0.0.1"
 description = "Documentation of data models used in N5GEH "
-authors = ["Martin Altenburger <martin.altenburger@tu-berlin.de>"]
+authors = [
+    "Martin Altenburger <martin.altenburger@tu-berlin.de>",
+    "Tiedo Behrends  <tiedo.behrends@tu-dresden.de>",
+    "Paul Seidel <paul.seidel@tu-dresden.de"
+]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"

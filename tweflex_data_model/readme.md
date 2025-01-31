@@ -28,7 +28,7 @@
 |                      |                                |                                  | `dhw__temperature__x`          | attribute        | Number      | °C              | DHW temperature at a specific position            |
 |                      |                                |                                  | `dhw__volumeflow`              | attribute        | Number      | m³/h            | Volume flow of DHW in the pipe |
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
-| `dhw_installation`| `dhw_measuring_section:001`  | DHW Measuring Section Laboratory | `dhw__status__volumeflow`      | attribute        | Number      | -               | Status of which flow meter is used                |
+| `dhw_installation`   | `dhw_measuring_section:001`    | DHW Measuring Section Laboratory | `dhw__status__volumeflow`      | attribute        | Number      | -               | Status of which flow meter is used                |
 |                      |                                |                                  | `tmb__temperature__x`          | attribute        | Number      | °C              | Temperature of the heat tape                      |
 |                      |                                |                                  | `ambient__temperature__x`      | attribute        | Number      | °C              | Ambient temperature   |
 |                      |                                |                                  |                                 |                  |              |                |                                                    |
@@ -66,6 +66,13 @@
 |                      |                                |                                  | `heat__volumeflow`              | attribute        | Number      | m³/h or l/min     | Volume flow                                       |
 |                      |                                |                                  | `heat__power`                   | attribute        | Number      | W or kW          | Heat power                                        |
 |                      |                                |                                  | `heat__energy`                  | attribute        | Number      | kWh | MWh        | Heat energy / thermal energy                      |
+| `heat_transfer_station` | `heat_transfer_station:001`   | Heat Transfer Station           | `operation__mode`            | command        | String / StructuredValue | - | Operating mode of the heat transfer station |
+|                         |                               |                                 | `heat__power__rated`         | static_attribute | Number    | W or kW   | Rated power in the reference case               |
+|                         |                               |                                 | `heat__power__setpoint`      | command        | Number / StructuredValue | W or kW | Setpoint power in the reference case            |
+|                         |                               |                                 | `heat__temperature__setpoint`| command        | Number / StructuredValue | °C | Setpoint temperature in the reference case      |
+|                         |                               |                                 | `heat__meter__in`            | Relationship  | heat_meter | -  | Heat meter for the reference case    |
+| `dhw_station`           | `dhw_station:001`             | DHW Station                     | `dhw__temperature__setpoint` | command        | Number / StructuredValue | °C | Setpoint temperature for the dhw      |
+|                         |                               |                                 | `heat__meter__in`            | Relationship  | heat_meter | -  | Heat meter for the reference case     |
 
 ## Related projects
 
